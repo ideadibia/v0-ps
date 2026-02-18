@@ -1,6 +1,5 @@
 import { Hero } from "@/components/hero"
 import { Supporters } from "@/components/supporters"
-import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
         <hr className="border-border" />
       </div>
       <Supporters />
-      <CtaSection />
       <Footer />
     </main>
   )

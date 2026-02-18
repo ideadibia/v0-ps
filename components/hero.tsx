@@ -28,7 +28,9 @@ export function Hero() {
         </p>
 
         <a
-          href="#form"
+          href="https://forms.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-all hover:opacity-90"
         >
           Do you struggle with medication?
