@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="flex min-h-svh flex-col items-center justify-between px-6 py-10 md:py-16">
+    <main className="flex min-h-svh flex-col items-center px-6 py-10 md:py-16">
       {/* Logo */}
       <header>
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="text-sm text-muted-foreground">
+      <footer className="mt-auto pt-20 text-sm text-muted-foreground">
         {"\u00A9"} {new Date().getFullYear()} Pillsette
       </footer>
     </main>
