@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
 export default function Home() {
@@ -6,13 +5,11 @@ export default function Home() {
     <main className="flex min-h-svh flex-col items-center justify-between px-6 py-10 md:py-16">
       {/* Logo */}
       <header>
-        <Image
-          src="/images/accountable-logo-wordmark.jpg"
-          alt="Accountable"
-          width={180}
-          height={48}
-          className="h-auto rounded-md"
-          priority
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/pillsette-logo.svg"
+          alt="Pillsette"
+          className="h-12 w-auto md:h-14"
         />
       </header>
 
@@ -39,7 +36,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-sm text-muted-foreground">
-        {"\u00A9"} {new Date().getFullYear()} Accountable
+        {"\u00A9"} {new Date().getFullYear()} Pillsette
       </footer>
     </main>
   )

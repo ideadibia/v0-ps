@@ -7,7 +7,7 @@ const _dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 const _dmSerif = DM_Serif_Display({ weight: "400", subsets: ["latin"], variable: "--font-dm-serif" });
 
 export const metadata: Metadata = {
-  title: 'Accountable — Never forget to take your medication again',
+  title: 'Pillsette — Never forget to take your medication again',
   description: 'Smart, portable pill dispensers and medication reminders designed for older adults. Stay on track with your health.',
   icons: {
     icon: [
