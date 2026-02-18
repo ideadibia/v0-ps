@@ -9,7 +9,7 @@ export default function Home() {
         <img
           src="/images/pillsette-logo.svg"
           alt="Pillsette"
-          className="h-72 w-auto md:h-84"
+          className="h-54 w-auto md:h-64"
         />
       </header>
 
