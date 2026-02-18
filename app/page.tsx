@@ -29,7 +29,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://forms.google.com"
+          href="https://uoft.me/medpackaging"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-all hover:opacity-90"
