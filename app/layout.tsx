@@ -1,10 +1,9 @@
 import type { Metadata, Viewport } from 'next'
-import { DM_Sans, DM_Serif_Display } from 'next/font/google'
+import { Barlow } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
-const _dmSerif = DM_Serif_Display({ weight: "400", subsets: ["latin"], variable: "--font-dm-serif" });
+const _barlow = Barlow({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-barlow" });
 
 export const metadata: Metadata = {
   title: 'Pillsette — Never forget to take your medication again',
@@ -39,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${_dmSans.variable} ${_dmSerif.variable} font-sans antialiased`}>
+      <body className={`${_barlow.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

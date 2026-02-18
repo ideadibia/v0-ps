@@ -9,13 +9,13 @@ export default function Home() {
         <img
           src="/images/pillsette-logo.svg"
           alt="Pillsette"
-          className="h-36 w-auto md:h-42"
+          className="h-72 w-auto md:h-84"
         />
       </header>
 
       {/* Central CTA */}
       <div className="flex w-full max-w-md flex-col items-center gap-6 text-center">
-        <h1 className="font-serif text-3xl text-foreground md:text-4xl text-balance">
+        <h1 className="font-sans text-3xl font-semibold text-foreground md:text-4xl text-balance">
           Struggling to keep track of your pills?
         </h1>
 
