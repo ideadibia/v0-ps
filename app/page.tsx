@@ -11,7 +11,7 @@ export default function Home() {
           alt="Accountable"
           width={180}
           height={48}
-          className="rounded-md"
+          className="h-auto rounded-md"
           priority
         />
       </header>
