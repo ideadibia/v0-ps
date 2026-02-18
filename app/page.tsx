@@ -4,18 +4,16 @@ import { ArrowRight } from "lucide-react"
 export default function Home() {
   return (
     <main className="flex min-h-svh flex-col items-center justify-between px-6 py-10 md:py-16">
-      {/* Logo + Wordmark */}
-      <header className="flex items-center gap-3">
+      {/* Logo */}
+      <header>
         <Image
-          src="/images/accountable-logo.jpg"
-          alt="Accountable logo"
-          width={40}
-          height={40}
-          className="rounded-lg"
+          src="/images/accountable-logo-wordmark.jpg"
+          alt="Accountable"
+          width={180}
+          height={48}
+          className="rounded-md"
+          priority
         />
-        <span className="text-lg font-semibold tracking-tight text-foreground">
-          Accountable
-        </span>
       </header>
 
       {/* Central CTA */}
