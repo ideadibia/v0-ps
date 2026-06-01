@@ -32,6 +32,13 @@ export default function Home() {
           Share your experience
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </a>
+
+        <a
+          href="/medication-management"
+          className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
+        >
+          Read survey results
+        </a>
       </div>
 
       {/* Footer */}
