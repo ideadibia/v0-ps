@@ -107,3 +107,16 @@
         font-size: 2.25rem;
       }
     }
+/* Container that aligns items horizontally */
+        .image-row {
+            display: flex; /* Activates Flexbox layout */
+            gap: 10px; /* Creates even spacing between the images */
+            width: 100%; /* Spans the full width of the parent container */
+        }
+
+        /* Styling for the child images */
+        .image-row img {
+            width: 25%; /* Dynamically allocates equal space for 4 items */
+            height: auto; /* Maintains original image proportions */
+            object-fit: cover; /* Prevents stretching by cropping if needed */
+        }
