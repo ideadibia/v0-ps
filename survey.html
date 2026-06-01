@@ -7,34 +7,24 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --foreground: #1a1a1a;
-      --muted-foreground: #6b7280;
-    }
-    body {
-      font-family: 'Instrument Sans', sans-serif;
-    }
-    .text-foreground { color: var(--foreground); }
-    .text-muted-foreground { color: var(--muted-foreground); }
-  </style>
+  <link rel="stylesheet" href="nominal.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
 </head>
 <body>
-  <main class="flex min-h-screen flex-col items-center px-6 py-10 md:py-16">
+  <main>
     <!-- Logo -->
     <header>
       <img
-        src="/images/pillsette-logo.svg"
+        src="pillsette-logo.svg"
         alt="Pillsette"
-        class="h-54 w-auto md:h-64"
+        class="logo"
       />
     </header>
 
     <!-- Content -->
     <article class="w-full max-w-[800px] text-left">
       <h1 class="text-3xl font-semibold text-foreground md:text-4xl" style="text-wrap: balance;">
-        Understanding medication management.
+        Understanding medication management
       </h1>
 
       <p class="mt-4 text-base leading-relaxed text-muted-foreground">
@@ -83,8 +73,8 @@
     </article>
 
     <!-- Footer -->
-    <footer class="mt-auto pt-20 text-sm text-muted-foreground">
-      &copy; 2026 Pillsette
+    <footer>
+      &copy; <script>document.write(new Date().getFullYear())</script> Pillsette
     </footer>
   </main>
 </body>
