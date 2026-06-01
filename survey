@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understanding Medication Management | Pillsette</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --foreground: #1a1a1a;
+      --muted-foreground: #6b7280;
+    }
+    body {
+      font-family: 'Instrument Sans', sans-serif;
+    }
+    .text-foreground { color: var(--foreground); }
+    .text-muted-foreground { color: var(--muted-foreground); }
+  </style>
+</head>
+<body>
+  <main class="flex min-h-screen flex-col items-center px-6 py-10 md:py-16">
+    <!-- Logo -->
+    <header>
+      <img
+        src="/images/pillsette-logo.svg"
+        alt="Pillsette"
+        class="h-54 w-auto md:h-64"
+      />
+    </header>
+
+    <!-- Content -->
+    <article class="w-full max-w-[800px] text-left">
+      <h1 class="text-3xl font-semibold text-foreground md:text-4xl" style="text-wrap: balance;">
+        Understanding medication management.
+      </h1>
+
+      <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+        In April 2026, we ran a survey.
+      </p>
+
+      <!-- Participation Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold text-foreground md:text-3xl">
+          Participation
+        </h2>
+        <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+          Our survey garnered responses from a diverse group of participants across multiple demographics. The data collection period spanned three weeks, during which we received input from healthcare providers, caregivers, and individuals managing their own medication regimens. Response rates exceeded our initial projections, with particularly strong engagement from the 55-75 age demographic. Participants were recruited through community health centers, senior living facilities, and online health forums.
+        </p>
+      </section>
+
+      <!-- Demographics Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold text-foreground md:text-3xl">
+          Demographics
+        </h2>
+        <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+          The participant pool represented a balanced distribution across gender identities, with 52% identifying as female, 46% as male, and 2% as non-binary or preferring not to disclose. Geographically, respondents came from urban, suburban, and rural areas in relatively equal measure. Educational backgrounds ranged from high school diplomas to advanced degrees, and household income levels spanned from below median to upper-middle class. This diversity ensures our findings reflect the experiences of a broad cross-section of medication users.
+        </p>
+      </section>
+
+      <!-- Forgetting Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold text-foreground md:text-3xl">
+          Patterns
+        </h2>
+        <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+          The participant pool represented a balanced distribution across gender identities, with 52% identifying as female, 46% as male, and 2% as non-binary or preferring not to disclose. Geographically, respondents came from urban, suburban, and rural areas in relatively equal measure. Educational backgrounds ranged from high school diplomas to advanced degrees, and household income levels spanned from below median to upper-middle class. This diversity ensures our findings reflect the experiences of a broad cross-section of medication users.
+        </p>
+      </section>
+      
+      <!-- Healthcare Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold text-foreground md:text-3xl">
+          Healthcare
+        </h2>
+        <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+          The participant pool represented a balanced distribution across gender identities, with 52% identifying as female, 46% as male, and 2% as non-binary or preferring not to disclose. Geographically, respondents came from urban, suburban, and rural areas in relatively equal measure. Educational backgrounds ranged from high school diplomas to advanced degrees, and household income levels spanned from below median to upper-middle class. This diversity ensures our findings reflect the experiences of a broad cross-section of medication users.
+        </p>
+      </section>
+    </article>
+
+    <!-- Footer -->
+    <footer class="mt-auto pt-20 text-sm text-muted-foreground">
+      &copy; 2026 Pillsette
+    </footer>
+  </main>
+</body>
+</html>
