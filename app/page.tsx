@@ -34,6 +34,30 @@ export default function Home() {
         </a>
       </div>
 
+      {/* Supporters */}
+      <section className="mt-12 flex w-full max-w-3xl flex-col items-center gap-6">
+        <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          Supported by
+        </p>
+        <div className="grid w-full grid-cols-2 gap-6 sm:grid-cols-4">
+          {[
+            { src: "/images/L2M.webp", alt: "Lab2Market" },
+            { src: "/images/BFN.png", alt: "Black Founders Network" },
+            { src: "/images/CABHI.webp", alt: "Centre for Aging + Brain Health Innovation" },
+            { src: "/images/H2i.png", alt: "Health Innovation Hub" },
+          ].map((logo) => (
+            <div key={logo.alt} className="flex items-center justify-center px-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={logo.src || "/placeholder.svg"}
+                alt={logo.alt}
+                className="max-h-12 w-auto object-contain"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="mt-auto pt-20 text-sm text-muted-foreground">
         {"\u00A9"} {new Date().getFullYear()} Pillsette
