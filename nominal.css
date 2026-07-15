@@ -52,6 +52,10 @@
       text-wrap: balance;
     }
 
+   ul, ol {
+      list-style: disc inside;
+    }
+
     .subtitle {
       font-size: 1rem;
       line-height: 1.6;
