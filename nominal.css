@@ -53,7 +53,9 @@
     }
 
    ul, ol {
-      list-style: disc inside;
+      padding-left: 2rem; /* Restores the indentation gap */
+      list-style-type: disc; /* Ensures the bullet points are visible */
+      list-style-position: outside; /* Keeps bullets aligned outside the text block */
     }
 
     .subtitle {
